@@ -1,0 +1,59 @@
+.video {
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.video .pic {
+    width: 100%;
+}
+
+.video .pic img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.video .content {
+    padding: 0rem 1rem 1rem;
+}
+
+.video .content .title {
+    font-size: 1.2rem;
+    color: #3c3c3c;
+    font-weight: 600;
+    text-align: left;
+    padding-bottom: 0.5rem;
+}
+
+
+.video .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.video .content p {
+    margin: 0;
+    padding: 0;
+}
+
+.video .content .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.video .content .views {
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+.video .content .views,
+.video .content .channel {
+    font-size: 0.9rem;
+    color: #ababab;
+}
